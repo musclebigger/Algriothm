@@ -53,3 +53,8 @@
 修改后（提高scalable，当增加需要引用的类时直接在接口里添加）：
 
 ![image](https://upload-images.jianshu.io/upload_images/14186083-22580545a2617fb5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**里氏替换Liskov subsititution Principles**
+
+一种理想的继承类设计，子类尽量不重写父类方法
+

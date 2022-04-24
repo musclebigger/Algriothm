@@ -27,7 +27,7 @@
 
 **单一职责Single responsibility principle**
 每个类都应该有一个单一的功能，并且该功能应该由这个类完全封装起来，除非这个类是功能是最小的。
-<img src="http://c.biancheng.net/uploads/allimg/181113/3-1Q113133F4161.gif">
+!(http://c.biancheng.net/uploads/allimg/181113/3-1Q113133F4161.gif)
 
 
 **接口隔离**

@@ -44,6 +44,7 @@
 **依赖倒转Dependence Inversion Principles**
 
 高层模块不应该依赖于低层模块而应该依赖于其抽象类，并且细节依赖于抽象。换句话说，不要再类里面区定义依赖于另一个类，而要将这个类归于一个接口。
+实现方法三种: 接口，settter，构造器，都可以实现依赖倒转
 
 不考虑dependence inversion：
 

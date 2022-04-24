@@ -40,3 +40,15 @@
 ![image](https://img-blog.csdnimg.cn/20200407103518354.png?…mNzZG4ubmV0L2F0dTExMTE=,size_16,color_FFFFFF,t_70)
 修改后：
 ![image](https://img-blog.csdnimg.cn/20200407105850838.png?…mNzZG4ubmV0L2F0dTExMTE=,size_16,color_FFFFFF,t_70)
+
+**依赖倒转Dependence Inversion Principles**
+
+高层模块不应该依赖于低层模块而应该依赖于其抽象类，并且细节依赖于抽象。换句话说，不要再类里面区定义依赖于另一个类，而要将这个类归于一个接口。
+
+不考虑dependence inversion：
+
+![image](https://upload-images.jianshu.io/upload_images/14186083-2b425fd147530af4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+修改后（提高scalable，当增加需要引用的类时直接在接口里添加）：
+
+![image](https://upload-images.jianshu.io/upload_images/14186083-22580545a2617fb5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

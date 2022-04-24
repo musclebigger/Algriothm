@@ -26,8 +26,17 @@
 而选择排序中，最小值和首位交换的过程可能会破坏稳定性。比如数列：[2, 2, 1]，在选择排序中第一次进行交换时，原数列中的两个 2 的相对顺序就被改变了，因此，我们说选择排序是不稳定的。
 
 **单一职责Single responsibility principle**
+
 每个类都应该有一个单一的功能，并且该功能应该由这个类完全封装起来，除非这个类是功能是最小的。
-!(http://c.biancheng.net/uploads/allimg/181113/3-1Q113133F4161.gif)
+![image](http://c.biancheng.net/uploads/allimg/181113/3-1Q113133F4161.gif)
+上图老师和辅导员为两个类并且功能独立。所以不能设计为一个老师类去执行辅导员的功能，这违反了单一职责。
 
 
-**接口隔离**
+**接口隔离interface-segregation principles**
+
+客户端不应该依赖它不需要的接口；一个类对另一个类的依赖应该建立在最小的接口上。
+
+未遵循接口隔离原则的设计:
+![image](https://img-blog.csdnimg.cn/20200407103518354.png?…mNzZG4ubmV0L2F0dTExMTE=,size_16,color_FFFFFF,t_70)
+修改后：
+![image](https://img-blog.csdnimg.cn/20200407105850838.png?…mNzZG4ubmV0L2F0dTExMTE=,size_16,color_FFFFFF,t_70)
